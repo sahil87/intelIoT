@@ -1,0 +1,72 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "icon.png": {
+        "previousModTime": 1458370195257,
+        "modified": 1458370195257,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1458370195257,
+        "modified": 1458370195257,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1458370195257,
+        "modified": 1458370195257,
+        "seen": true,
+        "name": "package.json"
+      },
+      "README.md": {
+        "previousModTime": 1458370195257,
+        "modified": 1458370195257,
+        "seen": true,
+        "name": "README.md"
+      },
+      "temperature.xdk": {
+        "previousModTime": 1458370195381,
+        "modified": 1458370195381,
+        "seen": true,
+        "name": "temperature.xdk"
+      },
+      "temperature.xdke": {
+        "previousModTime": 1458370195393,
+        "modified": 1458370195393,
+        "seen": true,
+        "name": "temperature.xdke"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1458370195369,
+        "modified": 1458370195369,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "icon.png": {
+        "previousModTime": 1458381167508
+      },
+      "main.js": {
+        "previousModTime": 1458381167508
+      },
+      "package.json": {
+        "previousModTime": 1458381167508
+      },
+      "README.md": {
+        "previousModTime": 1458381167508
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1458381167508
+      }
+    }
+  }
+}
