@@ -1,0 +1,90 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "connect.js": {
+        "previousModTime": 1458408905303,
+        "modified": 1458408905303,
+        "seen": true,
+        "name": "connect.js"
+      },
+      "icon.png": {
+        "previousModTime": 1458392294418,
+        "modified": 1458392294418,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "loadsensor.xdk": {
+        "previousModTime": 1458392294566,
+        "modified": 1458392294566,
+        "seen": true,
+        "name": "loadsensor.xdk"
+      },
+      "loadsensor.xdke": {
+        "previousModTime": 1458409045131,
+        "modified": 1458409045131,
+        "seen": true,
+        "name": "loadsensor.xdke"
+      },
+      "main.js": {
+        "previousModTime": 1458409063811,
+        "modified": 1458409063811,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1458408000543,
+        "modified": 1458408000543,
+        "seen": true,
+        "name": "package.json"
+      },
+      "README.md": {
+        "previousModTime": 1458392294418,
+        "modified": 1458392294418,
+        "seen": true,
+        "name": "README.md"
+      },
+      ".idea/loadsensor.iml": {
+        "previousModTime": 1458392568850,
+        "modified": 1458392568850,
+        "seen": true,
+        "name": ".idea/loadsensor.iml"
+      },
+      ".idea/modules.xml": {
+        "previousModTime": 1458392568858,
+        "modified": 1458392568858,
+        "seen": true,
+        "name": ".idea/modules.xml"
+      },
+      ".idea/workspace.xml": {
+        "previousModTime": 1458409064771,
+        "modified": 1458409064771,
+        "seen": true,
+        "name": ".idea/workspace.xml"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1458392294542,
+        "modified": 1458392294542,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      },
+      "connectExample.js": {
+        "previousModTime": 1458408215659,
+        "modified": 1458408215659,
+        "seen": true,
+        "name": "connectExample.js"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1458409068000
+      }
+    }
+  }
+}
