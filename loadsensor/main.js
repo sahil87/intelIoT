@@ -91,12 +91,12 @@ function uploadValue() {
             digital_pin_D6.write(touch_sensor_value);
         }
         last_t_sensor_value = touch_sensor_value;
-        if (var_tcount>2){
+        if (var_tcount>5){
             var_tcount = 0;
             clearInterval(check_touch);
         }
     }, 500);
-    incrementI(i);
+    i = incrementI(i);
     var object = {weight: getValue(i), createTime: new Date(), containerNo: i};
     console.log('Inserting: ', JSON.stringify(object));
     connect.insert(object, function onInsert() {
@@ -104,11 +104,15 @@ function uploadValue() {
     });
 }
 
+function do_nothing(){
+  return;
+}
 function incrementI(i) {
     i++;
-    if(i>3) {
+    if(i>2) {
         i=1;
     }
+    return i;
 }
 
 function printText(display, r, g, b,line1,line2) {
@@ -134,13 +138,20 @@ function printText(display, r, g, b,line1,line2) {
  */
 function useUpm() {
 
-    display.setCursor(1, 1);
+//    display.setCursor(1, 1);
     display.setColor(0,0,254);
-    display.write('Welcome to Intel IOT Hackathon 2016');
     display.setCursor(0,0);
+    display.write('Welcome to Intel');
+    display.setCursor(1,0);
+    display.write('IOT Hackathon 2016');
+//    crap
+    setTimeout(function(){do_nothing();}, 5000);
+    display.setCursor(0,0);
+    display.setColor(0,254,0);
     display.write('Presenting AILA');
     display.setCursor(1,0);
     display.write('Auto Inventory n Logistics Analysis');
+//    display.scroll
 //    display.setColor(0,0,0);
 }
 
