@@ -10,4 +10,4 @@ function updateData() {
     });
 }
 
-setTimeout(updateData, 5);
+setInterval(updateData, 5);
