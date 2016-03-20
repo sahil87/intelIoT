@@ -9,74 +9,74 @@
   "iot-tab": {
     "fileStatus": {
       "connect.js": {
-        "previousModTime": 1458408905303,
-        "modified": 1458408905303,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": "connect.js"
       },
       "icon.png": {
-        "previousModTime": 1458392294418,
-        "modified": 1458392294418,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": "icon.png"
       },
       "loadsensor.xdk": {
-        "previousModTime": 1458392294566,
-        "modified": 1458392294566,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": "loadsensor.xdk"
       },
       "loadsensor.xdke": {
-        "previousModTime": 1458409068075,
-        "modified": 1458409068075,
+        "previousModTime": 1458452441769,
+        "modified": 1458452441769,
         "seen": true,
         "name": "loadsensor.xdke"
       },
       "main.js": {
-        "previousModTime": 1458409101335,
-        "modified": 1458409101335,
+        "previousModTime": 1458452559292,
+        "modified": 1458452559292,
         "seen": true,
         "name": "main.js"
       },
       "package.json": {
-        "previousModTime": 1458408000543,
-        "modified": 1458408000543,
+        "previousModTime": 1458443429681,
+        "modified": 1458443429681,
         "seen": true,
         "name": "package.json"
       },
       "README.md": {
-        "previousModTime": 1458392294418,
-        "modified": 1458392294418,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": "README.md"
       },
       ".idea/loadsensor.iml": {
-        "previousModTime": 1458392568850,
-        "modified": 1458392568850,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": ".idea/loadsensor.iml"
       },
       ".idea/modules.xml": {
-        "previousModTime": 1458392568858,
-        "modified": 1458392568858,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": ".idea/modules.xml"
       },
       ".idea/workspace.xml": {
-        "previousModTime": 1458411515855,
-        "modified": 1458411515855,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": ".idea/workspace.xml"
       },
       "xdk/project-info.json": {
-        "previousModTime": 1458392294542,
-        "modified": 1458392294542,
+        "previousModTime": 1458427028759,
+        "modified": 1458427028759,
         "seen": true,
         "name": "xdk/project-info.json"
       },
       "connectExample.js": {
-        "previousModTime": 1458408215659,
-        "modified": 1458408215659,
+        "previousModTime": 1458427028648,
+        "modified": 1458427028648,
         "seen": true,
         "name": "connectExample.js"
       }
