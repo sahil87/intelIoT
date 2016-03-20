@@ -30,7 +30,7 @@ function insert(object, callback) {
         if (err)
             return console.log('[alice.insert] ', err.message);
         console.log('you have inserted the rabbit.');
-        console.log(body)
+        console.log(body);
         callback();
     });
 }

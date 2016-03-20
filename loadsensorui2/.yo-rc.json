@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "loadsensorui2",
+    "style": "css",
+    "postcss": false
+  }
+}
