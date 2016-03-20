@@ -1,6 +1,7 @@
 console.log('here');
 
 function updateData() {
+    console.log('Updating data: ');
     $.get("/output.json", function (data, status) {
         console.log('Amount of data: ', data.length);
         $.each(data, function(key, value){
@@ -10,4 +11,5 @@ function updateData() {
     });
 }
 
-setInterval(updateData, 5);
+updateData();
+setInterval(updateData, 3000);
