@@ -35,7 +35,7 @@ function insert(object, callback) {
 }
 
 function initialize() {
-    var createTimeIndex = {name: 'createTime', type: 'json', index: {fields: ['createTime']}};
+    var createTimeIndex = {name: 'createTime', type: 'json', index: {fields: [{'createTime': 'desc'}]}};
     var configIndex = {name: 'config', type: 'json', index: {fields: ['config']}};
 
     db.index(createTimeIndex, function (er, response) {
@@ -60,7 +60,6 @@ function initialize() {
         }
     });
 }
-
 exports.print = print;
 exports.find = find;
 exports.insert = insert;
