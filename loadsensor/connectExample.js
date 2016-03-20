@@ -1,10 +1,10 @@
 var connect = require('./connect');
 
 var object = {createTime: new Date(), weight: 234};
-insert(object);
-var sinceDateSelector = (new Date()).getTime() - 1000 * 60;
-var allCreateTimeSelector = {selector: {createTime: {$gt: 0}}};
-var allSelector = {"_id": { "$gt": null }};
-find({"selector": allSelector, "limit": 10}, function onFind(results) {
-    print(results);
+
+var sinceDateTime = (new Date()).getTime() - 1000 * 60 * 60 * 50;
+var allCreateTimeSelector = {"_id": { "$gt":0}, "createTime": {"$gt": new Date(sinceDateTime)}};
+// var allSelector = {"_id": { "$gt": null }};
+connect.find({"selector": allCreateTimeSelector, "limit": 1000}, function onFind(results) {
+    connect.print(results);
 });
