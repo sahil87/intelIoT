@@ -11,13 +11,7 @@ var db = cloudant.db.use('loadsensor');
 
 function print(results)
 {
-    console.dir(results.docs);
-    // console.log('{');
-    // for (var i = 0; i < results.docs.length; i++) {
-    //
-    //     console.log('%s,', JSON.stringify(results.docs[i]));
-    // }
-    // console.log('}');
+    console.log(JSON.stringify(results.docs));
 }
 
 function find(query, callback) {
@@ -25,7 +19,7 @@ function find(query, callback) {
         if (er) {
             throw er;
         }
-        console.log('Found %d documents.', results.docs.length);
+        // console.log('Found %d documents.', results.docs.length);
         callback(results);
     });
 }
