@@ -9,10 +9,15 @@ var password = '87e39d008ed0f56ff2853766beac88a8436b8611';
 var cloudant = Cloudant({account: me, key: key, password: password});
 var db = cloudant.db.use('loadsensor');
 
-function print(results) {
-    for (var i = 0; i < results.docs.length; i++) {
-        console.log('Doc %s: %s', i, JSON.stringify(results.docs[i]));
-    }
+function print(results)
+{
+    console.dir(results.docs);
+    // console.log('{');
+    // for (var i = 0; i < results.docs.length; i++) {
+    //
+    //     console.log('%s,', JSON.stringify(results.docs[i]));
+    // }
+    // console.log('}');
 }
 
 function find(query, callback) {
