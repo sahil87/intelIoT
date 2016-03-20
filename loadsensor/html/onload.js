@@ -1,6 +1,6 @@
 console.log('here');
 
-$.get("http://localhost:8080/output.json", function (data, status) {
+$.get("/output.json", function (data, status) {
     console.log('Amount of data: ', data.length);
     $.each(data, function(key, value){
         console.log(key, value);
